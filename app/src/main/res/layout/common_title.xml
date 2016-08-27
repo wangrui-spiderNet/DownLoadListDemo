@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_actionbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/public_title_height"
+                android:background="@color/title_bg_color">
+
+    <LinearLayout
+        android:id="@+id/backView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_back_icon"/>
+
+        <TextView
+            android:id="@+id/back_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/back"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/common_title_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:maxWidth="200dp"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="标题"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/common_title_bar_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:text="编辑"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text"
+        android:visibility="gone"/>
+
+    <CheckBox
+        android:id="@+id/common_title_bar_checkbox_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dimen_05"
+        android:button="@drawable/mine_edit_selector"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sub_text"
+        />
+
+</RelativeLayout>

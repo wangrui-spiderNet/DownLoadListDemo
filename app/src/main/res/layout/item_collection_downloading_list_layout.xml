@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/mine_collection_downloading_checkbox"
+        android:layout_width="@dimen/dimen_25"
+        android:layout_height="@dimen/dimen_25"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dimen_10"
+        android:layout_marginRight="@dimen/dimen_15"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/mine_collection_downloading_image"
+        android:layout_width="@dimen/dimen_80"
+        android:layout_height="@dimen/dimen_80"
+        android:layout_margin="3dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dip"
+        android:layout_marginRight="6dip"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/mine_collection_downloading_doc_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mine_collection_downloading_progress"
+            android:layout_marginRight="@dimen/dimen_10"
+            android:layout_marginTop="10dip"
+            android:text="320k"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/mine_collection_downloading_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mine_collection_downloading_progress"
+            android:layout_marginTop="10dip"
+            android:layout_toRightOf="@+id/mine_collection_downloading_doc_size"
+            android:text="已下载0%"
+            android:textSize="13sp" />
+
+        <ProgressBar
+            android:id="@+id/mine_collection_downloading_progress"
+            android:layout_width="match_parent"
+            android:layout_height="5dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:indeterminateOnly="false"
+            android:max="100"
+            android:layout_marginRight="@dimen/dimen_05"
+            android:progressDrawable="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/mine_collection_downloading_doc_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/mine_collection_downloading_progress"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:singleLine="true"
+            android:text="未知标题"
+            android:textColor="#101010"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/mine_collection_download_status_image"
+            android:layout_width="@dimen/dimen_35"
+            android:layout_height="@dimen/dimen_45"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="-5dp"
+            android:layout_alignBottom="@+id/mine_collection_downloading_doc_name"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/ic_launcher" />
+    </RelativeLayout>
+
+</LinearLayout>

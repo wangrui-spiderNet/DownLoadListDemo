@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    >
+
+
+    <RadioGroup
+        android:id="@+id/gd_mine_download_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_bg"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen_65"
+        android:paddingRight="@dimen/dimen_65">
+
+        <RadioButton
+            android:id="@+id/gd_mine_downloaded_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:gravity="center"
+            android:text="已下载"/>
+
+        <RadioButton
+            android:id="@+id/gd_mine_downloading_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="正在下载"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/gd_mine_download_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/gd_mine_download_rg"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</RelativeLayout>

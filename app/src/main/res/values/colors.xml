@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="textColor">#FFFFFF</color>
+    <color name="app_theme_color">#3184ca</color>
+    <color name="app_accent_theme_color">#2174ba</color>
+    <color name="black">#000000</color>
+
+    <!--标题栏背景颜色-->
+    <color name="title_bg_color">#0083C4</color>
+
+    <!--资料页面灰色背景-->
+    <color name="sub_page_bg">#E2E2E2</color>
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <!-- yaosq 点击交互颜色变动 start -->
+    <color name="click_bg">#e9e9e9</color>
+    <color name="orange">#f89636</color>
+    <color name="gray_bg">#DFDFDF</color>
+    <color name="txt_click_bg">#83c6fb</color>
+    <color name="act_notice_bg">#FFF9E1</color>
+    <color name="act_notice_txt_color">#999999</color>
+    <color name="jx_act_notice_txt_color">#d59351</color>
+    <color name="pink">#F39090</color>
+    <color name="gray">#B1B1B1</color>
+    <color name="gray_bg_low">#f4f4f4</color>
+    <color name="gray_bg_medium">#f8f8f8</color>
+    <color name="green_bg">#51E79C</color>
+    <color name="gray_item_bg">#999999</color>
+    <color name="spptransparent">#00000000</color>
+    <color name="spptransparent_half">#A0000000</color>
+    <!-- yaosq 点击交互颜色变动 end -->
+
+
+    <!-- 各地区版本主题颜色配置 -->
+    <!-- 福建版颜色绿色-->
+    <!--<color name="app_theme_color1">#39b08a</color>-->
+    <!-- 浙江、浙江普陀、贵州、广东、江西、山东、河北版颜色 -->
+    <color name="app_theme_color1">#3184ca</color><!--&lt;!&ndash;蓝色&ndash;&gt;-->
+
+    <!-- <color name="setting_background_color1">#2e513c</color> -->
+    <!-- <color name="gray_txt_light_1">#183325</color> -->
+
+
+    <!-- <color name="app_theme_color1">#39b08a</color> -->
+    <color name="setting_background_color1">#104551</color>
+    <color name="gray_txt_light_1">#0b3341</color>
+
+    <!-- listview 按下颜色值 -->
+    <color name="listview_item_press">#f7f7f7</color>
+
+    <!-- 原来工程色值 -->
+    <color name="gray_txt_light">#FFC8C8C8</color>
+    <color name="side_bg_s_color">#660D98DB</color>
+    <color name="gray_txt">#FF606060</color>
+    <color name="common_gray">#888888</color>
+
+    <!-- 字体颜色 -->
+    <color name="bright_blue">#0DAEF4</color>
+    <color name="blue_low">#0d98db</color>
+    <color name="blue_web_url">#5DC0EB</color>
+    <color name="txt_theme_color">#9c9c9c</color>
+    <color name="txt_hint_color">#bfbfbf</color>
+    <color name="txt_black_color">#515151</color>
+    <color name="txt_white_color">#FFFFFF</color>
+    <color name="black70">#b2000000</color>
+    <color name="txt_gray_color">#808080</color>
+    <color name="text_gray">#BEBEBE</color>
+    <color name="text_red">#cc3333</color>
+
+
+    <!-- 按钮颜色 -->
+    <color name="but_color_n">#6FB921</color>
+    <color name="but_color_s">#868686</color>
+
+    <!-- 首页主界面 切换颜色 -->
+    <color name="tab_color_checked">#30B18D</color>
+    <color name="tab_color_unchecked">#7A7979</color>
+    <!-- #329c70 -->
+
+    <!--奇数偶数显示不同的背景色-->
+    <color name="odd_bg">#ffffff</color>
+    <color name="even_bg">#eef6f9</color>
+
+    <!-- 首页模块的颜色 -->
+    <color name="bar_color">#F2F2F1</color>
+    <color name="public_corner_border_color">#B7B7B7</color>
+    <color name="app_theme_txt_color">#577A96</color>
+
+    <!-- 统一字体颜色 -->
+    <color name="app_txt_color">#6CC6AD</color>
+
+    <!-- layout 点击效果 -->
+    <color name="layout_down_s">#ffffff</color>
+    <color name="layout_down_n">#c0c0c0</color>
+    <color name="listview_line">#DDDDDC</color>
+    <color name="red">#E84C25</color>
+    <color name="lightblue">#0083FF</color>
+    <color name="blue">#0D98DB</color>
+    <color name="fujianshouye_shoucan_pressed">#16cd95</color>
+    <color name="fujianshouye_shoucan_normal">#2fb98e</color>
+    <color name="gd_switch_view">#1C5E9A</color>
+
+    <!--考核数据-->
+    <color name="white">#FFFFFF</color>
+    <color name="grey_background">#F2F2F2</color>
+    <color name="grey_text">#888c8f</color>
+    <color name="yellow_text">#ea9a27</color>
+    <color name="bule">#1c9dfa</color>
+    <color name="red1">#fb3950</color>
+    <!--教师账号管理-->
+    <color name="business_check_n">#c5ecff</color>
+    <color name="business_check_s">#93c5dd</color>
+    <color name="full_transparent">#00000000</color>
+</resources>
+

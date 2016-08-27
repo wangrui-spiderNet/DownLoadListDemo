@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sub_page_bg"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/gd_mine_collection_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50"
+        android:layout_marginTop="@dimen/dimen_15"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/gd_mine_collection_iv_head"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_margin="@dimen/content_margin"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/gd_mine_collection_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/gd_mine_collection_iv_head"
+            android:gravity="center_vertical"
+            android:text="@string/mine_collection"
+            android:textSize="@dimen/sub_text" />
+
+        <TextView
+            android:id="@+id/gd_mine_collection_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_05"
+            android:layout_toLeftOf="@+id/gd_mine_collection_arrow"
+            android:paddingTop="@dimen/dimen_02"
+            android:text="3"
+            android:textColor="@color/text_gray" />
+
+        <ImageView
+            android:id="@+id/gd_mine_collection_arrow"
+            android:layout_width="@dimen/arrow_size"
+            android:layout_height="@dimen/arrow_size"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/ic_launcher" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@color/sub_page_bg" />
+
+    <RelativeLayout
+        android:id="@+id/gd_mine_download_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/gd_mine_download_iv"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/content_margin"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/gd_mine_download_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/gd_mine_download_iv"
+            android:gravity="center_vertical"
+            android:text="@string/mine_download"
+            android:textSize="@dimen/sub_text" />
+
+        <TextView
+            android:id="@+id/gd_mine_download_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_05"
+            android:layout_toLeftOf="@+id/gd_mine_download_arrow"
+            android:paddingTop="@dimen/dimen_02"
+            android:text="2/5"
+            android:textColor="@color/text_gray" />
+
+        <ImageView
+            android:id="@+id/gd_mine_download_arrow"
+            android:layout_width="@dimen/arrow_size"
+            android:layout_height="@dimen/arrow_size"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/ic_launcher" />
+    </RelativeLayout>
+
+</LinearLayout>

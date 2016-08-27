@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">广东渠道</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="bottom_text_array">
+        <item name="work">工作台</item>
+        <item name="material">资料</item>
+        <item name="mine">我</item>
+    </string-array>
+
+    <!--资料-->
+    <string name="material_product_train">产品培训</string>
+    <string name="material_cp_bus_train">CP业务培训</string>
+    <string name="material_he_edu_version_extend">和教育版本推广</string>
+    <string name="material_common_question">常见问题</string>
+    <string name="material_product_question">产品问题</string>
+    <string name="material_function_question">功能问题</string>
+
+    <string name="material_operator_manufacture">运营商及厂商资料</string>
+    <string name="material_upload_process">CP提交上载流程</string>
+    <string name="material_product_rule">素材规格及产品规范</string>
+
+    <string name="material_download_type">已下载%1$s</string>
+    <!-- http_connection链接超时时间 -->
+    <string name="material_http_connection_out_time">600000</string>
+
+    <!--我-->
+    <string name="mine_collection">我的收藏</string>
+    <string name="mine_download">我的下载</string>
+    <string name="mine_setting">设置</string>
+    <string name="mine_version_test">版本检测</string>
+    <string name="common_edit">编辑</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_choose_all">全选</string>
+    <string name="common_cancel_collect">取消收藏</string>
+    <string name="common_mine_collection">我得收藏</string>
+    <string name="common_delete">删除</string>
+    <string name="common_modify_psd">修改密码</string>
+    <string name="common_clear_cache">清理缓存</string>
+
+    <!--考核数据-->
+    <string name="back">返回</string>
+    <string name="notice">通知</string>
+    <string name="check_city">选择区镇</string>
+    <string name="check_shcool">选择学校</string>
+    <string name="check">请选择</string>
+    <string name="checkdata_detail">考核详情</string>
+    <string name="confirm">确认</string>
+    <string name="no_notice">当前没有数据!</string>
+    <string name="school">学校: 八一实验中学</string>
+    <string name="add_people">新增用户数</string>
+    <string name="total_people">累计用户数</string>
+    <string name="city">地区: 广州 越秀</string>
+    <string name="manager">客户经理: 蒋欣</string>
+    <string name="classes">班级总数: 35</string>
+    <string name="parent">家长</string>
+    <string name="teacher">老师</string>
+    <string name="student">学生</string>
+    <string name="city1">地区: %s</string>
+    <string name="school1">学校: %s</string>
+    <string name="manager1">客户经理: %s</string>
+    <string name="classes1">班级总数: %s</string>
+    <string name="total_customer">%s人</string>
+    <string name="common_setting">设置</string>
+    <string name="mine_setting_log_out">退出登录</string>
+    <string name="common_old_psw">原密码</string>
+    <string name="common_new_psw">新密码</string>
+    <string name="common_confirm_new_psw">确认新密码</string>
+    <string name="mine_save">保存</string>
+    <string name="mine_setting_modify_psw">修改密码</string>
+    <string name="mine_setting_psw_error">新密码和确认密码不一致！</string>
+    <string name="common_tip_title">提示</string>
+    <string name="tip_delete_cache">删除本应用缓存？</string>
+    <string name="common_sure">确定</string>
+    <string name="material_question_download_install">下载与安装</string>
+    <string name="material_question_login">登陆问题</string>
+    <string name="material_question_business">业务问题</string>
+
+    <!--教师账号管理 -->
+    <string name="teacher_search">老师搜索</string>
+    <string name="teacher_search_details">老师账号详情</string>
+    <string name="choose_class">选择班级</string>
+    <string name="common_download">下载</string>
+    <string name="common_pause">暂停</string>
+    <string name="common_continue">继续</string>
+    <string name="common_open">打开</string>
+    <string name="common_sdcard_error">SD卡存在错误!</string>
+
+</resources>

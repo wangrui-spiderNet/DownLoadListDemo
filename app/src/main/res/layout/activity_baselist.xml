@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/sub_page_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/gd_mine_collect_bottom"
+        >
+
+        <thinkjoy.com.downloadlistdemo.widget.recycle.PullRecycler
+            android:id="@+id/gd_base_activty_pullrecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gd_mine_collect_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/gd_mine_collection_choose_all"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/common_choose_all"
+            android:textColor="@color/title_bg_color"
+            android:textSize="@dimen/text"
+            />
+
+        <TextView
+            android:id="@+id/gd_mine_collection_cancel_collect"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/common_cancel_collect"
+            android:textColor="@color/text_red"
+            android:textSize="@dimen/text"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

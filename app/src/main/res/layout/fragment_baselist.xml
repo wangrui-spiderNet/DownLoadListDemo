@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sub_page_bg">
+
+    <RelativeLayout
+        android:id="@+id/mine_download_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/gd_mine_download_bottom_info_layout"
+        >
+
+        <thinkjoy.com.downloadlistdemo.widget.recycle.PullRecycler
+            android:id="@+id/gd_base_fragment_pullrecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/gd_mine_download_bottom_switch_layout"
+            android:background="@android:color/white" />
+
+        <LinearLayout
+            android:id="@+id/gd_mine_download_bottom_switch_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_10"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:id="@+id/gd_mine_download_choose_all"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/common_choose_all"
+                android:textColor="@color/title_bg_color"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:id="@+id/gd_mine_download_delete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/common_delete"
+                android:textColor="@color/text_red"
+                android:textSize="@dimen/text" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gd_mine_download_bottom_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_70"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/gd_mine_download_sdcard_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_05"
+            android:gravity="center"
+            android:text="已占用11G/剩余3G可用" />
+
+        <ProgressBar
+            android:id="@+id/gd_mine_download_progress"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_05"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dimen_20"
+            android:layout_marginRight="@dimen/dimen_05"
+            android:layout_marginLeft="@dimen/dimen_05"
+            android:max="100"
+            android:maxHeight="5dp"
+            android:minHeight="5dp"
+            android:indeterminateOnly="false"
+            android:progressDrawable="@drawable/progress_sdcard_size_horizontal"            android:progress="80" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

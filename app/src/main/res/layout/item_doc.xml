@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_55"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/gd_mine_collection_checkbox"
+        android:layout_width="@dimen/dimen_25"
+        android:layout_height="@dimen/dimen_25"
+        android:layout_marginRight="@dimen/dimen_15"
+        android:layout_marginLeft="@dimen/dimen_10"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"/>
+
+    <ImageView
+        android:id="@+id/gd_mine_collection_icon"
+        android:layout_width="@dimen/dimen_45"
+        android:layout_height="@dimen/dimen_45"
+        android:layout_toRightOf="@+id/gd_mine_collection_checkbox"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/dimen_05"
+        android:src="@mipmap/ic_launcher">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/gd_mine_collection_file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/gd_mine_collection_icon"
+        android:layout_toRightOf="@+id/gd_mine_collection_icon"
+        android:textColor="@color/primary_text"
+        android:text="WAP深度运营交流材料"
+        android:textSize="@dimen/text"
+        />
+
+    <TextView
+        android:id="@+id/gd_mine_collection_file_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="302kb"
+        android:textColor="@color/secondary_text"
+        android:layout_alignLeft="@+id/gd_mine_collection_file_name"
+        android:layout_alignBottom="@+id/gd_mine_collection_icon"
+        android:textSize="@dimen/sub_text"/>
+
+    <ImageView
+        android:id="@+id/mine_file_download_icon"
+        android:layout_width="@dimen/dimen_30"
+        android:layout_height="@dimen/dimen_30"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dimen_05"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/mine_file_download_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已下载"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dimen_05"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
